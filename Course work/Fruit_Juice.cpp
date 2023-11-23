@@ -40,11 +40,12 @@ int main() {
 
         size_t finder = juices[i].fruit.find(juices[i - 1].fruit);
 
-        if (finder != string::npos) {
+        if (finder == string::npos) {
 
             count++;
         }
     }
+    count++;
 
     cout << "We have to wash " << count << " times." << endl;
 
