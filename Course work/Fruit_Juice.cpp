@@ -50,6 +50,4 @@ int main() {
     cout << "We have to wash " << count << " times." << endl;
 
     delete[] juices;
-
-    return 0;
 }
